@@ -1,6 +1,6 @@
-# Dr. Oftalmólogo - Landing Page Profesional
+# Dr. David Dañin - Oftalmólogo Especialista
 
-Una landing page moderna para un oftalmólogo especialista construida con Next.js 14+, TypeScript y TailwindCSS.
+Una landing page moderna profesional para el Dr. David Dañin, oftalmólogo especialista, construida con Next.js 14+, TypeScript y TailwindCSS.
 
 ## 🚀 Características
 

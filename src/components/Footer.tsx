@@ -6,7 +6,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Dr. <span className="text-medical">Oftalmólogo</span>
+              Dr. <span className="text-medical">David Dañin</span>
             </h3>
             <p className="text-gray-400">
               Tu visión es nuestra prioridad. Especialista en salud visual con más de 15 años de experiencia.
@@ -83,7 +83,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Dr. Oftalmólogo - Especialista en Salud Visual. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Dr. David Dañin - Especialista en Salud Visual. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

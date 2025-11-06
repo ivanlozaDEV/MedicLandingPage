@@ -58,7 +58,7 @@ export default function Navbar() {
             <span className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Dr. <span className={`${isScrolled ? 'text-medical' : 'text-medical'}`}>Oftalmólogo</span>
+              Dr. <span className={`${isScrolled ? 'text-medical' : 'text-medical'}`}>David Dañin</span>
             </span>
           </a>
 
