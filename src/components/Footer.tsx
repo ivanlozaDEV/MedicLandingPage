@@ -6,10 +6,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Medic<span className="text-medical">Landing</span>
+              Dr. <span className="text-medical">Oftalmólogo</span>
             </h3>
             <p className="text-gray-400">
-              Tu salud es nuestra prioridad. Atención médica de calidad y confianza.
+              Tu visión es nuestra prioridad. Especialista en salud visual con más de 15 años de experiencia.
             </p>
           </div>
 
@@ -37,12 +37,12 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Servicios</h4>
+            <h4 className="text-lg font-semibold mb-4">Especialidades</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">Medicina General</li>
-              <li className="text-gray-400">Especialidades</li>
-              <li className="text-gray-400">Laboratorio</li>
-              <li className="text-gray-400">Urgencias 24/7</li>
+              <li className="text-gray-400">Cirugía de Cataratas</li>
+              <li className="text-gray-400">LASIK</li>
+              <li className="text-gray-400">Glaucoma</li>
+              <li className="text-gray-400">Retina y Mácula</li>
             </ul>
           </div>
 
@@ -83,7 +83,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} MedicLanding. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Dr. Oftalmólogo - Especialista en Salud Visual. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

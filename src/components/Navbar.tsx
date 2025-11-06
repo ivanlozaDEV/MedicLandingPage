@@ -19,6 +19,7 @@ export default function Navbar() {
     { href: '#inicio', label: 'Inicio' },
     { href: '#servicios', label: 'Servicios' },
     { href: '#nosotros', label: 'Nosotros' },
+    { href: '#reviews', label: 'Reseñas' },
     { href: '#contacto', label: 'Contacto' },
   ]
 
@@ -57,7 +58,7 @@ export default function Navbar() {
             <span className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Medic<span className={`${isScrolled ? 'text-medical' : 'text-medical'}`}>Landing</span>
+              Dr. <span className={`${isScrolled ? 'text-medical' : 'text-medical'}`}>Oftalmólogo</span>
             </span>
           </a>
 

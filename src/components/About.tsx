@@ -1,23 +1,23 @@
 const features = [
   {
     id: 1,
-    title: '15+ Años de Experiencia',
-    description: 'Más de una década brindando atención médica de calidad.',
+    title: 'Especialista Certificado',
+    description: 'Oftalmólogo certificado con más de 15 años de experiencia. Fellow en cirugía de cataratas y LASIK.',
   },
   {
     id: 2,
-    title: 'Tecnología de Punta',
-    description: 'Equipamiento médico de última generación para diagnósticos precisos.',
+    title: 'Tecnología Láser Avanzada',
+    description: 'Equipamiento de última generación: OCT, topógrafo corneal, láser femtosegundo y más.',
   },
   {
     id: 3,
-    title: 'Personal Certificado',
-    description: 'Médicos y especialistas con certificaciones nacionales e internacionales.',
+    title: '+5000 Cirugías Exitosas',
+    description: 'Miles de procedimientos realizados con excelentes resultados y alta satisfacción de pacientes.',
   },
   {
     id: 4,
-    title: 'Atención Personalizada',
-    description: 'Cada paciente recibe un plan de tratamiento adaptado a sus necesidades.',
+    title: 'Atención Integral',
+    description: 'Desde consulta preventiva hasta tratamientos complejos. Seguimiento personalizado post-operatorio.',
   },
 ]
 
@@ -51,11 +51,11 @@ export default function About() {
           {/* Right Content */}
           <div className="flex-1">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              ¿Por Qué Elegirnos?
+              Tu Especialista en Salud Visual
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Somos un centro médico comprometido con la salud y el bienestar de nuestros 
-              pacientes, ofreciendo servicios de calidad con calidez humana.
+              Dedicado al cuidado de tu visión con la más alta calidad y profesionalismo. 
+              Cada paciente recibe atención personalizada con tecnología de vanguardia.
             </p>
 
             <div className="space-y-6">

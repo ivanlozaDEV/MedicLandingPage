@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Medic Landing Page - Servicios Médicos Profesionales',
-  description: 'Encuentra los mejores servicios médicos profesionales. Atención de calidad, tecnología de punta y personal altamente capacitado.',
-  keywords: ['medicina', 'salud', 'servicios médicos', 'atención médica', 'doctor'],
+  title: 'Dr. Oftalmólogo - Especialista en Salud Visual | Cirugía LASIK, Cataratas',
+  description: 'Oftalmólogo con más de 15 años de experiencia. Especialista en cirugía de cataratas, LASIK, glaucoma y enfermedades de la retina. Tecnología de última generación.',
+  keywords: ['oftalmólogo', 'oculista', 'cirugía lasik', 'cataratas', 'glaucoma', 'retina', 'salud visual', 'cirugía refractiva', 'lentes', 'vista'],
 }
 
 export default function RootLayout({

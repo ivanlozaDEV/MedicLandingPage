@@ -1,15 +1,18 @@
-# MedicLandingPage
+# Dr. Oftalmólogo - Landing Page Profesional
 
-Una landing page moderna para servicios médicos construida con Next.js 14+, TypeScript y TailwindCSS.
+Una landing page moderna para un oftalmólogo especialista construida con Next.js 14+, TypeScript y TailwindCSS.
 
 ## 🚀 Características
 
 - ⚡ Next.js 14+ con App Router
+- 👁️ Diseño especializado para oftalmología
 - 🎨 TailwindCSS para estilos modernos
 - 📱 Diseño totalmente responsive
 - ♿ Accesible (WCAG 2.1 AA)
-- 🔍 SEO optimizado
+- 🔍 SEO optimizado para servicios oftalmológicos
 - 🎯 TypeScript para type safety
+- ⭐ Sistema de reseñas integrado
+- 💬 WhatsApp para contacto directo
 
 ## 📦 Instalación
 
@@ -48,6 +51,7 @@ MedicLandingPage/
 │       ├── Hero.tsx           # Sección hero
 │       ├── Services.tsx       # Sección de servicios
 │       ├── About.tsx          # Sección sobre nosotros
+│       ├── GoogleReviews.tsx  # Carrusel de reseñas
 │       ├── Contact.tsx        # Formulario de contacto
 │       ├── Footer.tsx         # Footer
 │       └── WhatsAppButton.tsx # Botón flotante de WhatsApp
@@ -62,12 +66,13 @@ MedicLandingPage/
 La landing page incluye las siguientes secciones:
 
 1. **Navbar** - Navegación moderna con efectos de scroll y menú móvil
-2. **Hero** - Sección de bienvenida con call-to-action
-3. **Servicios** - Muestra los servicios médicos disponibles
-4. **Nosotros** - Información sobre el centro médico
-5. **Contacto** - Formulario de contacto e información
-6. **Footer** - Enlaces y redes sociales
-7. **WhatsApp Button** - Botón flotante para contacto directo por WhatsApp
+2. **Hero** - Sección principal con estadísticas del oftalmólogo
+3. **Especialidades** - 6 servicios oftalmológicos detallados (LASIK, Cataratas, Glaucoma, etc.)
+4. **Sobre el Doctor** - Certificaciones y experiencia del especialista
+5. **Reseñas de Google** - Testimonios reales de pacientes
+6. **Contacto** - Formulario y datos de ubicación
+7. **Footer** - Información y especialidades
+8. **WhatsApp Button** - Contacto directo para agendar citas
 
 ## 🌈 Personalización
 
@@ -97,6 +102,17 @@ El navbar incluye:
 - ✨ Animaciones suaves en hover
 - 🔗 Navegación con scroll suave entre secciones
 - 🎯 Botón CTA destacado "Agendar Cita"
+
+### Google Reviews
+
+Carrusel de reseñas con:
+- ⭐ Calificación promedio y total de reseñas
+- 🎠 Carrusel interactivo (desktop y móvil)
+- 👤 Avatares de usuarios
+- 📱 Totalmente responsive
+- 🔗 Link a Google Maps para ver más reseñas
+
+Para personalizar las reseñas, edita el array `reviews` en `src/components/GoogleReviews.tsx` y cambia el link de Google Maps.
 
 ### WhatsApp
 

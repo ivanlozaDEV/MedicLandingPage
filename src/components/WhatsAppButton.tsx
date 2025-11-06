@@ -2,7 +2,7 @@
 
 export default function WhatsAppButton() {
   const phoneNumber = '5215551234567' // Reemplazar con el número real (con código de país sin +)
-  const message = '¡Hola! Me gustaría obtener más información sobre sus servicios médicos.'
+  const message = '¡Hola! Me gustaría agendar una consulta oftalmológica.'
 
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
